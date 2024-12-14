@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 450px;
+  margin: 80px auto 80px auto;
+  /* box-shadow: 0px 0px 10px 10px rgb(75, 74, 74); */
+  border: 5px solid black;
+  background-color: grey;
+}
+.Top {
+  text-align: center;
+  padding: 40px;
+  font-weight: bold;
+  font-size: larger;
+}
+#c {
+  background-color: rgb(235, 130, 11);
+}
+.display {
+  text-align: right;
+  height: 70px;
+  font-size: 25px;
+  line-height: 70px;
+  padding: 16px 8px;
+  background-color: #ddd;
+  border: 1.5px solid black;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-top: 1px solid black;
+}
+.button {
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+#equal {
+  background-color: rgb(85, 85, 255);
+  color: white;
+}
+.button:hover {
+  background-color: #323330;
+  color: white;
+  transition: 0.5s;
+}
